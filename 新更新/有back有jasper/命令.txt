@@ -1,0 +1,1 @@
+findMotifs.pl output_blast3.fasta  fasta analysis_output_jasper3/ -mknown homer_motifs.txt  -bg SP1_L.fasta

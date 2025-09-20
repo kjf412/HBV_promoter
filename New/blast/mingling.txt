@@ -1,0 +1,6 @@
+
+
+python extract_blast_sequences.py all_add.blast2 Human.fasta output_blast2.fasta
+python extract_blast_sequences.py all_add.blast3 Human.fasta output_blast3.fasta
+python extract_blast_sequences.py all_add.blast4 Human.fasta output_blast4.fasta
+python extract_blast_sequences.py all_add.blast1 Human.fasta output_blast1.fasta

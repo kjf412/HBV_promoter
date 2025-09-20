@@ -1,0 +1,1 @@
+cmd = output_blast2.fasta fasta analysis_output2/ -mset vertebrates

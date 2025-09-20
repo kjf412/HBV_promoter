@@ -1,0 +1,2 @@
+用法: python extract_blast_sequences_improved.py <blast_result_file> <fasta_file> <output_file>
+示例: python extract_blast_sequences_improved.py all_add.blast1 Human.fasta extracted_sequences.fasta

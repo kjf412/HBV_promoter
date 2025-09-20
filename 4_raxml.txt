@@ -1,0 +1,9 @@
+git clone --recursive https://github.com/amkozlov/raxml-ng
+cd raxml-ng
+mkdir build && cd build
+cmake ..
+make
+
+sudo apt-get install bison flex
+# 运行
+/raxml-ng/build/bin/raxml-ng --search1 --msa tree_human_pro_1.fasta --model GTR+G
