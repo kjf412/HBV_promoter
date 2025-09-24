@@ -1,0 +1,76 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=3221;seqhdr="X02763.1 Hepatitis b virus genome (serotype adw2)"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="7|Archaeoglobus_fulgidus_DSM_4304|A|48.6|11|0";gc_cont=48.60;transl_table=11;uses_sd=0
+X02763.1	Prodigal_v2.6.3	CDS	2	646	13.4	+	0	ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.473;conf=95.64;score=13.44;cscore=10.22;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+X02763.1	Prodigal_v2.6.3	CDS	561	749	10.4	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.455;conf=90.35;score=9.73;cscore=11.95;sscore=-2.22;rscore=-1.50;uscore=-2.81;tscore=2.74;
+X02763.1	Prodigal_v2.6.3	CDS	786	3032	50.2	+	0	ID=1_3;partial=00;start_type=GTG;rbs_motif=AGGTG;rbs_spacer=10bp;gc_cont=0.500;conf=100.00;score=50.25;cscore=41.24;sscore=9.01;rscore=11.98;uscore=2.18;tscore=-5.15;
+X02763.1	Prodigal_v2.6.3	CDS	3017	3220	11.4	+	0	ID=1_4;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.515;conf=94.71;score=12.55;cscore=14.85;sscore=-2.30;rscore=-1.11;uscore=-6.04;tscore=3.68;
+# Sequence Data: seqnum=2;seqlen=3215;seqhdr="D00330.1 Hepatitis B virus subtype ADW genomic DNA, complete genome, clone: pODW282"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
+D00330.1	Prodigal_v2.6.3	CDS	1	1623	41.9	+	0	ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.507;conf=99.99;score=41.87;cscore=38.66;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+D00330.1	Prodigal_v2.6.3	CDS	1620	1838	-2.8	+	0	ID=2_2;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.489;conf=77.42;score=5.36;cscore=3.14;sscore=2.22;rscore=4.25;uscore=-6.86;tscore=-3.33;
+D00330.1	Prodigal_v2.6.3	CDS	1901	2452	14.3	+	0	ID=2_3;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.469;conf=96.36;score=14.25;cscore=5.88;sscore=8.37;rscore=10.07;uscore=-3.40;tscore=1.69;
+D00330.1	Prodigal_v2.6.3	CDS	2367	2588	11.7	-	0	ID=2_4;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.441;conf=93.64;score=11.70;cscore=10.53;sscore=1.17;rscore=-0.85;uscore=2.63;tscore=-0.62;
+# Sequence Data: seqnum=3;seqlen=3215;seqhdr="AY123041.1 Hepatitis B virus genotype C, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
+AY123041.1	Prodigal_v2.6.3	CDS	1	1497	38.4	+	0	ID=3_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.512;conf=99.99;score=38.35;cscore=35.14;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+AY123041.1	Prodigal_v2.6.3	CDS	1494	1712	-4.2	+	0	ID=3_2;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.470;conf=71.15;score=3.93;cscore=1.71;sscore=2.22;rscore=4.25;uscore=-6.86;tscore=-3.33;
+AY123041.1	Prodigal_v2.6.3	CDS	1775	2326	14.7	+	0	ID=3_3;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.466;conf=96.68;score=14.67;cscore=6.30;sscore=8.37;rscore=10.07;uscore=-3.40;tscore=1.69;
+AY123041.1	Prodigal_v2.6.3	CDS	2241	2405	12.4	-	0	ID=3_4;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.479;conf=93.64;score=11.70;cscore=8.63;sscore=3.07;rscore=3.19;uscore=1.36;tscore=-0.83;
+AY123041.1	Prodigal_v2.6.3	CDS	2587	3213	7.6	+	0	ID=3_5;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.517;conf=85.11;score=7.58;cscore=10.83;sscore=-3.25;rscore=-4.75;uscore=-0.19;tscore=1.69;
+# Sequence Data: seqnum=4;seqlen=3215;seqhdr="JN315779.1 Hepatitis B virus genotype C2, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
+JN315779.1	Prodigal_v2.6.3	CDS	1	1623	41.9	+	0	ID=4_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.510;conf=99.99;score=41.87;cscore=38.66;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+JN315779.1	Prodigal_v2.6.3	CDS	1620	1838	-3.8	+	0	ID=4_2;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.470;conf=73.17;score=4.36;cscore=2.14;sscore=2.22;rscore=4.25;uscore=-6.86;tscore=-3.33;
+JN315779.1	Prodigal_v2.6.3	CDS	1901	2452	14.7	+	0	ID=4_3;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.469;conf=96.68;score=14.67;cscore=6.30;sscore=8.37;rscore=10.07;uscore=-3.40;tscore=1.69;
+JN315779.1	Prodigal_v2.6.3	CDS	2367	2531	14.0	-	0	ID=4_4;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.479;conf=96.15;score=14.00;cscore=10.27;sscore=3.72;rscore=3.19;uscore=1.36;tscore=-0.83;
+# Sequence Data: seqnum=5;seqlen=3182;seqhdr="V01460.1 Hepatitis B virus (strain ayw) genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
+V01460.1	Prodigal_v2.6.3	CDS	3	713	5.2	-	0	ID=5_1;partial=10;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.459;conf=80.87;score=6.27;cscore=8.57;sscore=-2.30;rscore=1.80;uscore=-2.28;tscore=-2.88;
+V01460.1	Prodigal_v2.6.3	CDS	733	1284	14.7	-	0	ID=5_2;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.471;conf=96.68;score=14.67;cscore=6.30;sscore=8.37;rscore=10.07;uscore=-3.40;tscore=1.69;
+V01460.1	Prodigal_v2.6.3	CDS	1347	1565	-1.4	-	0	ID=5_3;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.470;conf=82.60;score=6.77;cscore=4.55;sscore=2.22;rscore=4.25;uscore=-6.86;tscore=-3.33;
+V01460.1	Prodigal_v2.6.3	CDS	1562	3181	41.8	-	0	ID=5_4;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.503;conf=99.99;score=41.79;cscore=38.57;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+# Sequence Data: seqnum=6;seqlen=3182;seqhdr="Z35716.1 Human hepatitis B virus (ayw4) genes for surface protein S, core protein, protein X, DNA polymerase"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
+Z35716.1	Prodigal_v2.6.3	CDS	3	1625	41.9	+	0	ID=6_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.508;conf=99.99;score=41.87;cscore=38.66;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+Z35716.1	Prodigal_v2.6.3	CDS	1622	1840	-3.0	+	0	ID=6_2;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.470;conf=76.64;score=5.17;cscore=2.95;sscore=2.22;rscore=4.25;uscore=-6.86;tscore=-3.33;
+Z35716.1	Prodigal_v2.6.3	CDS	1903	2454	14.7	+	0	ID=6_3;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.464;conf=96.68;score=14.67;cscore=6.30;sscore=8.37;rscore=10.07;uscore=-3.40;tscore=1.69;
+Z35716.1	Prodigal_v2.6.3	CDS	2474	3181	5.1	+	0	ID=6_4;partial=01;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.458;conf=80.57;score=6.19;cscore=8.48;sscore=-2.30;rscore=1.80;uscore=-2.28;tscore=-2.88;
+# Sequence Data: seqnum=7;seqlen=3212;seqhdr="X75657.1 Human hepatitis virus (genotype E, Bas) preS1, preS2, S, C, X, antigens, core antigen, X protein and polymerase"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
+X75657.1	Prodigal_v2.6.3	CDS	1	1623	41.9	+	0	ID=7_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.508;conf=99.99;score=41.87;cscore=38.66;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+X75657.1	Prodigal_v2.6.3	CDS	1620	1838	-4.2	+	0	ID=7_2;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.470;conf=71.45;score=3.99;cscore=1.77;sscore=2.22;rscore=4.25;uscore=-6.86;tscore=-3.33;
+X75657.1	Prodigal_v2.6.3	CDS	1901	2452	14.7	+	0	ID=7_3;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.460;conf=96.68;score=14.67;cscore=6.30;sscore=8.37;rscore=10.07;uscore=-3.40;tscore=1.69;
+X75657.1	Prodigal_v2.6.3	CDS	2367	2588	22.1	-	0	ID=7_4;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.419;conf=99.38;score=22.06;cscore=15.31;sscore=6.76;rscore=4.31;uscore=3.06;tscore=-0.62;
+# Sequence Data: seqnum=8;seqlen=3215;seqhdr="X69798.1 Hepatitis B virus, subtype adw4 genes"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="48|Xylella_fastidiosa_Temecula1|B|51.8|11|1";gc_cont=51.80;transl_table=11;uses_sd=1
+X69798.1	Prodigal_v2.6.3	CDS	1	165	16.3	-	0	ID=8_1;partial=10;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.539;conf=97.31;score=15.62;cscore=0.96;sscore=14.65;rscore=13.08;uscore=-2.55;tscore=4.77;
+X69798.1	Prodigal_v2.6.3	CDS	454	609	10.7	-	0	ID=8_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.526;conf=90.98;score=10.05;cscore=2.12;sscore=7.94;rscore=5.61;uscore=0.06;tscore=2.92;
+X69798.1	Prodigal_v2.6.3	CDS	640	1623	28.0	+	0	ID=8_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.525;conf=99.84;score=28.01;cscore=17.40;sscore=10.61;rscore=9.16;uscore=-3.32;tscore=4.77;
+X69798.1	Prodigal_v2.6.3	CDS	1686	1838	7.0	+	0	ID=8_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.438;conf=83.31;score=6.99;cscore=-0.24;sscore=7.23;rscore=5.50;uscore=-0.63;tscore=2.86;
+X69798.1	Prodigal_v2.6.3	CDS	1814	2452	10.3	+	0	ID=8_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.476;conf=91.48;score=10.32;cscore=9.04;sscore=1.29;rscore=-2.96;uscore=-0.53;tscore=4.77;
+X69798.1	Prodigal_v2.6.3	CDS	3047	3214	9.7	-	0	ID=8_6;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.589;conf=90.21;score=9.66;cscore=6.44;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+# Sequence Data: seqnum=9;seqlen=3248;seqhdr="AF160501.1 Hepatitis B virus strain IG29227, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
+AF160501.1	Prodigal_v2.6.3	CDS	1	1623	41.9	+	0	ID=9_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.504;conf=99.99;score=41.87;cscore=38.66;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+AF160501.1	Prodigal_v2.6.3	CDS	1620	1838	-6.9	+	0	ID=9_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.438;conf=52.99;score=0.52;cscore=-3.29;sscore=3.81;rscore=1.55;uscore=-6.10;tscore=1.46;
+AF160501.1	Prodigal_v2.6.3	CDS	1901	2488	18.1	+	0	ID=9_3;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.461;conf=98.47;score=18.11;cscore=9.74;sscore=8.37;rscore=10.07;uscore=-3.40;tscore=1.69;
+AF160501.1	Prodigal_v2.6.3	CDS	2382	2624	16.1	-	0	ID=9_4;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.444;conf=97.60;score=16.11;cscore=8.61;sscore=7.51;rscore=4.73;uscore=3.34;tscore=-0.56;
+# Sequence Data: seqnum=10;seqlen=3215;seqhdr="AY090454.1 Hepatitis B virus genotype H strain 1853Nic, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="29|Methylacidiphilum_infernorum_V4|B|45.5|11|0";gc_cont=45.50;transl_table=11;uses_sd=0
+AY090454.1	Prodigal_v2.6.3	CDS	1	1626	41.8	+	0	ID=10_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.517;conf=99.99;score=41.83;cscore=38.61;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+AY090454.1	Prodigal_v2.6.3	CDS	1817	2455	14.7	+	0	ID=10_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.469;conf=96.22;score=14.08;cscore=11.10;sscore=2.98;rscore=-0.40;uscore=-0.21;tscore=4.25;
+AY090454.1	Prodigal_v2.6.3	CDS	2716	3213	9.3	+	0	ID=10_3;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.512;conf=88.05;score=8.69;cscore=7.18;sscore=1.51;rscore=-0.40;uscore=-1.68;tscore=4.25;
+# Sequence Data: seqnum=11;seqlen=3215;seqhdr="GU357844.1 Hepatitis B virus isolate W29, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
+GU357844.1	Prodigal_v2.6.3	CDS	1	1623	41.9	+	0	ID=11_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.503;conf=99.99;score=41.87;cscore=38.66;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+GU357844.1	Prodigal_v2.6.3	CDS	1620	1838	-2.5	+	0	ID=11_2;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.475;conf=78.68;score=5.68;cscore=3.46;sscore=2.22;rscore=4.25;uscore=-6.86;tscore=-3.33;
+GU357844.1	Prodigal_v2.6.3	CDS	1901	2452	14.7	+	0	ID=11_3;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.469;conf=96.68;score=14.67;cscore=6.30;sscore=8.37;rscore=10.07;uscore=-3.40;tscore=1.69;
+GU357844.1	Prodigal_v2.6.3	CDS	2367	2588	20.3	-	0	ID=11_4;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.441;conf=98.91;score=19.60;cscore=12.60;sscore=7.00;rscore=4.31;uscore=3.96;tscore=-0.62;
+GU357844.1	Prodigal_v2.6.3	CDS	3047	3214	8.6	-	0	ID=11_5;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.565;conf=87.75;score=8.56;cscore=5.34;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+# Sequence Data: seqnum=12;seqlen=3182;seqhdr="AB486012.1 Hepatitis B virus genotype J DNA, complete genome, clone: JRB34"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
+AB486012.1	Prodigal_v2.6.3	CDS	1	1623	41.9	+	0	ID=12_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.514;conf=99.99;score=41.87;cscore=38.66;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+AB486012.1	Prodigal_v2.6.3	CDS	1901	2452	17.1	+	0	ID=12_2;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.458;conf=97.77;score=16.45;cscore=8.73;sscore=7.71;rscore=10.07;uscore=-3.40;tscore=1.69;
+AB486012.1	Prodigal_v2.6.3	CDS	2367	2531	11.1	-	0	ID=12_3;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.455;conf=91.63;score=10.41;cscore=9.60;sscore=0.81;rscore=1.16;uscore=1.13;tscore=-0.83;
+AB486012.1	Prodigal_v2.6.3	CDS	2713	3180	3.3	+	0	ID=12_4;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.532;conf=67.99;score=3.28;cscore=6.39;sscore=-3.11;rscore=-4.75;uscore=-0.05;tscore=1.69;

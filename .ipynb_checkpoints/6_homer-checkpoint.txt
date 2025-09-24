@@ -1,0 +1,9 @@
+# homer安装
+sudo apt install zip unzip
+wget http://homer.ucsd.edu/homer/configureHomer.pl
+perl configureHomer.pl -install
+export PATH=$PATH:$HOME/HOMER/bin/
+
+sudo apt install zip unzip
+
+findMotifs.pl tree_1_all.fasta fasta analysis_output/
