@@ -1,0 +1,1 @@
+cmd = shrew_pro_1.fasta fasta ana_shrew_1_polymerase_protein/ -mset vertebrates

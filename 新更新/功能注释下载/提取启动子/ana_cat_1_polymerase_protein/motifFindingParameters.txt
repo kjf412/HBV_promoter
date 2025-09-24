@@ -1,0 +1,1 @@
+cmd = cat_pro_1.fasta fasta ana_cat_1_polymerase_protein/ -mset vertebrates
