@@ -1,9 +1,40 @@
 # homer安装
+
+
 sudo apt install zip unzip
+
 wget http://homer.ucsd.edu/homer/configureHomer.pl
 perl configureHomer.pl -install
 export PATH=$PATH:$HOME/HOMER/bin/
 
-sudo apt install zip unzip
+
+
+vim ~/.bashrc
+export PATH=/mnt/workspace/Homer/bin/:$PATH
+source ~/.bashrc
+
+
+findMotifs.pl cat_HBV_EN2_Core_p.fasta fasta ana_cat_EN2_Core_p/ -mset vertebrates 
+findMotifs.pl cat_HBV_EnhI_XP_X.fasta fasta ana_cat_EnhI_XP_X/ -mset vertebrates 
+findMotifs.pl cat_HBV_SP1_L.fasta fasta ana_cat_SP1_L/ -mset vertebrates 
+findMotifs.pl cat_HBV_SP2_M.fasta fasta ana_cat_SP2_M/ -mset vertebrates
+findMotifs.pl shrew_HBV_EN2_Core_p.fasta fasta ana_shrew_EN2_Core_p/ -mset vertebrates 
+findMotifs.pl shrew_HBV_EnhI_XP_X.fasta ana_shrew_EnhI_XP_X/ -mset vertebrates 
+findMotifs.pl shrew_HBV_SP1_L.fasta fasta ana_shrew_SP1_L/ -mset vertebrates 
+findMotifs.pl shrew_HBV_SP2_M.fasta fasta ana_shrew_SP2_M/ -mset vertebrates 
+
+
 
 findMotifs.pl tree_1_all.fasta fasta analysis_output/
+
+
+tar -zcvf ana_cat_EN2_Core_p.tar.gz ana_cat_EN2_Core_p
+tar -zcvf ana_cat_EnhI_XP_X.tar.gz ana_cat_EnhI_XP_X
+tar -zcvf ana_cat_SP1_L.tar.gz ana_cat_SP1_L
+tar -zcvf ana_cat_SP2_M.tar.gz ana_cat_SP2_M
+
+tar -zcvf ana_shrew_EN2_Core_p.tar.gz ana_shrew_EN2_Core_p
+tar -zcvf ana_shrew_EnhI_XP_X.tar.gz ana_shrew_EnhI_XP_X
+tar -zcvf ana_shrew_SP1_L.tar.gz ana_shrew_SP1_L
+tar -zcvf ana_shrew_SP2_M.tar.gz ana_shrew_SP2_M
+

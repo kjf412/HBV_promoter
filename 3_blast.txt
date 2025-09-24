@@ -4,18 +4,13 @@ export PATH=/mnt/workspace/ncbi-blast-2.16.0+/bin/:$PATH
 source ~/.bashrc
 
 
-# method_1
-<<<<<<< HEAD
-makeblastdb -in EN2_Core_p.fasta -dbtype prot -out HBV_EN2_Core_p.db
-makeblastdb -in EnhI_XP_X.fasta -dbtype prot -out HBV_EnhI_XP_X.db
-makeblastdb -in SP1_L.fasta -dbtype prot -out HBV_SP1_L.db
-makeblastdb -in SP2_M.fasta -dbtype prot -out HBV_SP2_M.db
-=======
+
+
 makeblastdb -in EN2_Core_p.fasta -dbtype nucl -out HBV_EN2_Core_p.db
 makeblastdb -in EnhI_XP_X.fasta -dbtype nucl -out HBV_EnhI_XP_X.db
 makeblastdb -in SP1_L.fasta -dbtype nucl -out HBV_SP1_L.db
 makeblastdb -in SP2_M.fasta -dbtype nucl -out HBV_SP2_M.db
->>>>>>> 40cf540577e968b8b6965a7476c68bd37e086b66
+
 
 
 makeblastdb -in EN2_Core_p.fasta -dbtype nucl -out HBV_EN2_Core_p
@@ -23,7 +18,7 @@ makeblastdb -in EnhI_XP_X.fasta -dbtype nucl -out HBV_EnhI_XP_X
 makeblastdb -in SP1_L.fasta -dbtype nucl -out HBV_SP1_L
 makeblastdb -in SP2_M.fasta -dbtype nucl -out HBV_SP2_M
 
-<<<<<<< HEAD
+
 blastn -db HBV_EN2_Core_p.db -query Human.fasta -out all_add.blast1  -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs" -evalue 1e -task dc-megablast
 blastn -db HBV_EnhI_XP_X.db -query Human.fasta -out all_add.blast2  -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs" -evalue 1e -task dc-megablast
 blastn -db HBV_SP1_L.db -query Human.fasta -out all_add.blast3  -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs" -evalue 1e -task dc-megablast
@@ -50,12 +45,12 @@ python extract_blast_sequences.py all_shrew.blast2 shrew.fasta shrew_HBV_EnhI_XP
 python extract_blast_sequences.py all_shrew.blast3 shrew.fasta shrew_HBV_SP1_L.fasta
 python extract_blast_sequences.py all_shrew.blast4 shrew.fasta shrew_HBV_SP2_M.fasta
 # method_1
-=======
+
 blastn -db HBV_EN2_Core_p -query Human.fasta -out all_add.blast1  -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs" -evalue 1e -task dc-megablast
 blastn -db HBV_EnhI_XP_X -query Human.fasta -out all_add.blast2  -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs" -evalue 1e -task dc-megablast
 blastn -db HBV_SP1_L -query Human.fasta -out all_add.blast3  -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs" -evalue 1e -task dc-megablast
 blastn -db HBV_SP2_M -query Human.fasta -out all_add.blast4  -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovs" -evalue 1e -task dc-megablast
 
 # method_2
->>>>>>> 40cf540577e968b8b6965a7476c68bd37e086b66
+
 

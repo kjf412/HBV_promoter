@@ -1,0 +1,57 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=3165;seqhdr="NC_076022.1 |Asian grey shrew hepatitis B virus isolate DL70, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+NC_076022.1	Prodigal_v2.6.3	CDS	3	1466	39.9	+	0	ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.471;conf=99.99;score=39.87;cscore=36.65;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+NC_076022.1	Prodigal_v2.6.3	CDS	1721	2263	16.2	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.457;conf=97.29;score=15.58;cscore=13.36;sscore=2.22;rscore=0.00;uscore=-1.73;tscore=4.60;
+NC_076022.1	Prodigal_v2.6.3	CDS	2656	3165	19.8	+	0	ID=1_3;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.520;conf=98.79;score=19.13;cscore=15.40;sscore=3.74;rscore=0.00;uscore=-0.21;tscore=4.60;
+# Sequence Data: seqnum=2;seqlen=3172;seqhdr="MK345460.1 |Musk shrew hepatitis B virus isolate CIV-267, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+MK345460.1	Prodigal_v2.6.3	CDS	3	1469	41.4	+	0	ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.459;conf=99.99;score=41.43;cscore=38.21;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+MK345460.1	Prodigal_v2.6.3	CDS	2134	3171	27.3	+	0	ID=2_2;partial=01;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.457;conf=99.78;score=26.67;cscore=22.43;sscore=4.24;rscore=3.28;uscore=-1.16;tscore=2.78;
+# Sequence Data: seqnum=3;seqlen=3172;seqhdr="MK345461.1 |Musk shrew hepatitis B virus isolate CIV-1175, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+MK345461.1	Prodigal_v2.6.3	CDS	3	1469	41.4	+	0	ID=3_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.459;conf=99.99;score=41.43;cscore=38.21;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+MK345461.1	Prodigal_v2.6.3	CDS	2120	2350	13.5	-	0	ID=3_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.437;conf=95.03;score=12.84;cscore=15.62;sscore=-2.79;rscore=-2.78;uscore=-1.89;tscore=2.53;
+MK345461.1	Prodigal_v2.6.3	CDS	2675	3172	15.7	+	0	ID=3_3;partial=01;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.510;conf=97.36;score=15.70;cscore=13.75;sscore=1.95;rscore=3.28;uscore=-0.99;tscore=-0.34;
+# Sequence Data: seqnum=4;seqlen=3172;seqhdr="MK345462.1 |Musk shrew hepatitis B virus isolate CIV-294, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
+MK345462.1	Prodigal_v2.6.3	CDS	3	1469	43.3	+	0	ID=4_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.459;conf=100.00;score=43.26;cscore=40.04;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+MK345462.1	Prodigal_v2.6.3	CDS	1725	2270	5.6	+	0	ID=4_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.458;conf=75.78;score=4.96;cscore=9.99;sscore=-5.03;rscore=0.54;uscore=-7.57;tscore=2.66;
+MK345462.1	Prodigal_v2.6.3	CDS	2325	2510	0.8	-	0	ID=4_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.371;conf=50.65;score=0.11;cscore=-2.22;sscore=2.34;rscore=0.39;uscore=1.15;tscore=1.95;
+MK345462.1	Prodigal_v2.6.3	CDS	2663	3172	21.4	+	0	ID=4_4;partial=01;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.504;conf=99.28;score=21.44;cscore=23.80;sscore=-2.36;rscore=0.54;uscore=-5.56;tscore=2.66;
+# Sequence Data: seqnum=5;seqlen=3172;seqhdr="MK345463.1 |Musk shrew hepatitis B virus isolate CIV-304, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
+MK345463.1	Prodigal_v2.6.3	CDS	3	1469	43.3	+	0	ID=5_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.459;conf=100.00;score=43.26;cscore=40.04;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+MK345463.1	Prodigal_v2.6.3	CDS	1725	2270	5.6	+	0	ID=5_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.458;conf=75.78;score=4.96;cscore=9.99;sscore=-5.03;rscore=0.54;uscore=-7.57;tscore=2.66;
+MK345463.1	Prodigal_v2.6.3	CDS	2325	2510	0.8	-	0	ID=5_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.371;conf=50.65;score=0.11;cscore=-2.22;sscore=2.34;rscore=0.39;uscore=1.15;tscore=1.95;
+MK345463.1	Prodigal_v2.6.3	CDS	2663	3172	21.4	+	0	ID=5_4;partial=01;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.504;conf=99.28;score=21.44;cscore=23.80;sscore=-2.36;rscore=0.54;uscore=-5.56;tscore=2.66;
+# Sequence Data: seqnum=6;seqlen=3089;seqhdr="MK345465.1 |Crowned shrew hepatitis B virus isolate GF2139, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+MK345465.1	Prodigal_v2.6.3	CDS	3	1481	60.5	+	0	ID=6_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.477;conf=100.00;score=60.53;cscore=57.31;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+MK345465.1	Prodigal_v2.6.3	CDS	1723	2268	13.3	+	0	ID=6_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.452;conf=94.80;score=12.63;cscore=10.41;sscore=2.22;rscore=0.00;uscore=-1.73;tscore=4.60;
+MK345465.1	Prodigal_v2.6.3	CDS	2577	3089	16.7	+	0	ID=6_3;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.565;conf=97.55;score=16.04;cscore=15.11;sscore=0.92;rscore=0.00;uscore=-3.03;tscore=4.60;
+# Sequence Data: seqnum=7;seqlen=3089;seqhdr="MK345466.1 |Crowned shrew hepatitis B virus isolate KS12/1286, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+MK345466.1	Prodigal_v2.6.3	CDS	3	1514	49.7	+	0	ID=7_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.499;conf=100.00;score=49.71;cscore=46.49;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+MK345466.1	Prodigal_v2.6.3	CDS	1723	2268	14.3	+	0	ID=7_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.449;conf=95.87;score=13.68;cscore=11.47;sscore=2.22;rscore=0.00;uscore=-1.73;tscore=4.60;
+MK345466.1	Prodigal_v2.6.3	CDS	2577	3089	21.6	+	0	ID=7_3;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.565;conf=99.19;score=20.91;cscore=20.17;sscore=0.74;rscore=0.00;uscore=-3.21;tscore=4.60;
+# Sequence Data: seqnum=8;seqlen=3089;seqhdr="MK345467.1 |Crowned shrew hepatitis B virus isolate KS12/1263, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+MK345467.1	Prodigal_v2.6.3	CDS	3	1514	52.7	+	0	ID=8_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.497;conf=100.00;score=52.66;cscore=49.44;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+MK345467.1	Prodigal_v2.6.3	CDS	1723	2268	14.2	+	0	ID=8_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.452;conf=95.75;score=13.55;cscore=11.34;sscore=2.22;rscore=0.00;uscore=-1.73;tscore=4.60;
+MK345467.1	Prodigal_v2.6.3	CDS	2577	3089	21.9	+	0	ID=8_3;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.563;conf=99.24;score=21.21;cscore=20.39;sscore=0.82;rscore=0.00;uscore=-3.13;tscore=4.60;
+# Sequence Data: seqnum=9;seqlen=3089;seqhdr="MK345470.2 |Crowned shrew hepatitis B virus isolate KS12/1201, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+MK345470.2	Prodigal_v2.6.3	CDS	3	1514	54.2	+	0	ID=9_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.496;conf=100.00;score=54.20;cscore=50.98;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+MK345470.2	Prodigal_v2.6.3	CDS	1723	2268	14.2	+	0	ID=9_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.452;conf=95.75;score=13.55;cscore=11.34;sscore=2.22;rscore=0.00;uscore=-1.73;tscore=4.60;
+MK345470.2	Prodigal_v2.6.3	CDS	2577	3089	21.5	+	0	ID=9_3;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.561;conf=99.18;score=20.86;cscore=20.04;sscore=0.82;rscore=0.00;uscore=-3.13;tscore=4.60;
+# Sequence Data: seqnum=10;seqlen=3089;seqhdr="MK345474.1 |Crowned shrew hepatitis B virus isolate KS12/1203, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="29|Methylacidiphilum_infernorum_V4|B|45.5|11|0";gc_cont=45.50;transl_table=11;uses_sd=0
+MK345474.1	Prodigal_v2.6.3	CDS	3	1514	51.9	+	0	ID=10_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.497;conf=100.00;score=51.90;cscore=48.68;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+MK345474.1	Prodigal_v2.6.3	CDS	2118	2342	18.0	-	0	ID=10_2;partial=00;start_type=ATG;rbs_motif=AAAAA;rbs_spacer=13bp;gc_cont=0.453;conf=98.18;score=17.34;cscore=7.58;sscore=9.76;rscore=3.62;uscore=3.02;tscore=3.77;
+MK345474.1	Prodigal_v2.6.3	CDS	2577	3089	11.9	+	0	ID=10_3;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.565;conf=93.90;score=11.89;cscore=8.79;sscore=3.10;rscore=-0.40;uscore=-0.74;tscore=4.25;
+# Sequence Data: seqnum=11;seqlen=3089;seqhdr="MK345475.1 |Crowned shrew hepatitis B virus isolate KS12/1215, complete genome"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="29|Methylacidiphilum_infernorum_V4|B|45.5|11|0";gc_cont=45.50;transl_table=11;uses_sd=0
+MK345475.1	Prodigal_v2.6.3	CDS	3	1514	51.6	+	0	ID=11_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.499;conf=100.00;score=51.57;cscore=48.35;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+MK345475.1	Prodigal_v2.6.3	CDS	2118	2342	18.0	-	0	ID=11_2;partial=00;start_type=ATG;rbs_motif=AAAAA;rbs_spacer=13bp;gc_cont=0.458;conf=98.16;score=17.31;cscore=7.55;sscore=9.76;rscore=3.62;uscore=3.02;tscore=3.77;
+MK345475.1	Prodigal_v2.6.3	CDS	2577	3089	14.2	+	0	ID=11_3;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.565;conf=96.30;score=14.17;cscore=11.07;sscore=3.10;rscore=-0.40;uscore=-0.74;tscore=4.25;
