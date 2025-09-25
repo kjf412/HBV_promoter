@@ -122,7 +122,7 @@ if __name__ == "__main__":
     input_directory = "./"  # 替换为你的压缩文件所在目录
     
     # 可选：设置输出文件夹路径，不设置则默认在input_directory下创建output文件夹
-    # output_directory = "./output_files"
+    output_directory = "./output_files"
     
     # 执行处理
     process_compressed_files(input_directory)
