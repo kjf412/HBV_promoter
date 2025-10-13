@@ -1,0 +1,1 @@
+cmd = Donkey_dog_raccoon_surface_protein.fasta fasta Donkey_dog_raccoon_surface_protein/ -mset vertebrates
