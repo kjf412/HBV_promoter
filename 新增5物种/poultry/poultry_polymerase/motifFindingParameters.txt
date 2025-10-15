@@ -1,0 +1,1 @@
+cmd = poultry_polymerase.fasta fasta poultry_polymerase/ -mset vertebrates

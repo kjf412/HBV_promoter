@@ -1,0 +1,1 @@
+cmd = marmot_polymerase.fasta fasta marmot_polymerase/ -mset vertebrates
