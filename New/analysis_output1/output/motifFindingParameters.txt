@@ -1,0 +1,1 @@
+cmd = ../output_blast1.fasta fasta ./output/ -find homerMotifs.all.motifs -p 4
